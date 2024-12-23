@@ -1,0 +1,13 @@
+apiVersion: monitoring.coreos.com/v1alpha1
+kind: ScrapeConfig
+metadata:
+    labels:
+    release: prometheus
+    name: fbh-scrape-config
+    namespace: monitoring
+spec:
+    jobName: fbh
+    staticConfigs:
+    - targets:
+        - fbh.fritz.box
+        - fbh2.fritz.box  
