@@ -44,4 +44,4 @@ PromQL query to query the temperature sensors: `esphome_sensor_value{id=~"temp.*
 
 ## Pictures
 
-![fbh-temp-sensors](fbh-temp-sensors.jpg)
+![fbh-temp-sensors](fbh-temp-sensors.jpeg)
